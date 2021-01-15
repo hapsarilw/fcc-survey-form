@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movies Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- free code camp test suit -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="header">
+        <h1 id="title">Favorite Movies Survey Form</h1>
+        <p id="description">Collect data from users who like watching korea drama</p>
+    </div>
+    
+    <div class=container>
+        <form action="" id="survey-form">
+            <label for="name" id=name-label>Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+            <label for="email" id=email-label>Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+            <label for="number" id=number-label>Age:</label>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="Your Age" required><br><br>
+
+            <label for="cars">Choose Sex:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            Where you find information about trending movies/series/drama?<br>
+            <input type="checkbox" id="medsos1" name="medsos1" value="Youtube">
+            <label for="medsos1"> Youtube</label><br>
+            <input type="checkbox" id="medsos2" name="medsos2" value="Instagram">
+            <label for="medsos2"> Instagram</label><br>
+            <input type="checkbox" id="medsos3" name="medsos3" value="Twitter">
+            <label for="medsos3"> Twitter</label><br>
+            <input type="checkbox" id="medsos4" name="medsos4" value="Facebook">
+            <label for="medsos4"> Facebook</label><br>
+            <input type="checkbox" id="medsos5" name="medsos5" value="Telegram">
+            <label for="medsos5"> Telegram</label><br>
+            <input type="checkbox" id="medsos6" name="medsos6" value="Others">
+            <label for="medsos6"> Others</label><br><br>
+
+            <label for="cars">Genre:</label>
+            <select name="cars" id="dropdown">
+                <option value="romance">Romance</option>
+                <option value="thriller">Thriller</option>
+                <option value="comedy">Comedy</option>
+                <option value="horror">Horror</option>
+            </select><br><br>
+
+            <label for="w3review">Favorite Movies with Genres:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">Insert title of your movies.
+        </textarea><br><br>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <div class="footer">
+        Made by Hapsari Laksmi Wijayanti <br>
+        <a href="https://github.com/hapsarilw"><img class="logo" src="images/github.png" alt="Github Link"></a> 
+        <a href="https://www.linkedin.com/in/hapsari-laksmi-wijayanti/"><img class="logo" src="images/linkedin.png" alt="Linkedin Link"></a>      
+        
+    </div>
+
+
+</body>
+
+</html>
